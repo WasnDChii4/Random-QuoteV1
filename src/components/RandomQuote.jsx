@@ -39,11 +39,11 @@ export default function RandomQuote() {
         <svg className="w-8 text-white/40" fill="currentColor" viewBox="0 0 24 24">
           <path d="M6 17h3l2-4V7H5v6h3zm8 0h3l2-4V7h-6v6h3z"/>
         </svg>
-        <p className="text-lg md:text-xl leading-relaxed mb-6 ml-6">
+        <p className="text-lg md:text-2xl leading-relaxed font-julee-regular mb-6 ml-6">
           {quote.content}
         </p>
         {quote.author && (
-          <p className="text-md text-white/60 text-right">
+          <p className="text-xl text-white/60 font-italianno-regular text-right">
             ~ {quote.author}
           </p>
         )}
