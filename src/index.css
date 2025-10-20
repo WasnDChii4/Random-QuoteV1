@@ -1,13 +1,19 @@
 @import "tailwindcss";
 
 @import url('https://fonts.googleapis.com/css2?family=Julee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
 
 @layer base {
   :root {
     --font-julee-regular: "Julee", cursive;
+    --font-italianno-regular: "Italianno", cursive;
   }
 
-  .font-julee-regular{
+  .font-julee-regular {
     font-family: var(--font-julee-regular);
+  }
+
+  .font-italianno-regular {
+    font-family: var(--font-italianno-regular);
   }
 }
