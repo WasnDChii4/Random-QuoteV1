@@ -1,1 +1,13 @@
 @import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Julee&display=swap');
+
+@layer base {
+  :root {
+    --font-julee-regular: "Julee", cursive;
+  }
+
+  .font-julee-regular{
+    font-family: var(--font-julee-regular);
+  }
+}
